@@ -37,8 +37,8 @@ public class GridPath {
             row = loc.getRow();
             col = loc.getCol();
             sum += grid[row][col];
-        return sum;
         }
+        return sum;
     }
 
     public GridPath(int[][] values)
